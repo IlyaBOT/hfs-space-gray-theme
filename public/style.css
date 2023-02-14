@@ -1,0 +1,100 @@
+:root {
+    height: 100dvh;
+    --bg: #fff;
+    --text: #555;
+    --ghost-contrast: #8882;
+    --faint-contrast: #0f1113;
+    --mild-contrast: #8886;
+    --good-contrast: #000a;
+    --button-bg: #68a;
+    --button-text: #fff;
+    --focus-color: #468;
+}
+:root .theme-dark {
+    --bg: #25282A;
+    --text: #c8c8c8;
+    --good-contrast: #fffa;
+    --button-bg: #32363a;
+    --button-text: #c8c8c8;
+    color-scheme: dark;
+}
+
+:root .theme-dark a {
+    color: var(--button-text);
+}
+
+body {
+    background-size: contain;
+}
+
+header {
+    background-image: -webkit-linear-gradient(#484e55, #3a3f44 60%, #313539);
+    background-image: -o-linear-gradient(#484e55, #3a3f44 60%, #313539);
+    background-image: -webkit-gradient( linear, left top, left bottom, from(#484e55), color-stop(60%, #3a3f44), to(#313539) );
+    background-image: linear-gradient(#484e55, #3a3f44 60%, #313539);
+    background-repeat: no-repeat;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff484e55', endColorstr='#ff313539', GradientType=0);
+    -webkit-filter: none;
+    filter: none;
+
+    position: sticky;
+    top: 0;
+    padding: .2em;
+    z-index: 1;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    text-shadow: 1px 1px 4px rgb(0 0 0 / 70%);
+}
+
+#root {
+    max-width: 100%;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+ul.dir {
+    flex: 1;
+    padding: 15px;
+    margin: auto;
+    min-width: 95%;
+    max-width: 95%;
+    text-shadow: 1px 1px 4px rgb(0 0 0 / 70%);
+}
+
+ul.dir li {
+    display: block;
+    height: 32px;
+    list-style-type: none;
+    margin: 1px auto;
+    padding: .3em .3em .4em;
+    border: 1px solid var(--faint-contrast);
+    border-radius: 8px;
+}
+
+button {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    padding: .5em 1em;
+    border: transparent;
+    text-decoration: none;
+    border-radius: .3em;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid var(--faint-contrast);
+    text-shadow: 1px 1px 4px rgb(0 0 0 / 70%);
+}
+
+.breadcrumb {
+    padding: .1em .6em .2em;
+    line-height: 1.8em;
+    border-radius: .7em;
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: 1px solid var(--faint-contrast); 
+    margin: 2px 4px auto;
+    display: inline-block;
+    min-width: 60px;
+    text-align: center;
+    text-shadow: 0px 0px 4px rgb(0 0 0 / 40%);
+}
