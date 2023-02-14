@@ -85,6 +85,12 @@ button {
     text-shadow: 1px 1px 4px rgb(0 0 0 / 70%);
 }
 
+button:hover {
+	background-color: var(--button-text);
+	color: var(--button-bg);
+	text-shadow: 1px 1px 4px rgba(255, 255, 255, 70%);
+}
+
 .breadcrumb {
     padding: .1em .6em .2em;
     line-height: 1.8em;
