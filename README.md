@@ -1,2 +1,2 @@
-# hfs-space-gray-theme
-A simple space-gray like theme for HFS 3
+# Space-Gray theme for HFS 3
+Just a gray theme for HFS 3, idk.
