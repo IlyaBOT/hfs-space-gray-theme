@@ -40,10 +40,6 @@
     color-scheme: dark;
 }
 
-:root .theme-dark a {
-    color: var(--button-text);
-}
-
 body {
     background-size: contain;
 }
