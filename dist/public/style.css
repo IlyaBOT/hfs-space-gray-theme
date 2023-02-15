@@ -116,6 +116,7 @@ button:hover {
 
 a {
     text-decoration: none;
+    color: var(--button-text);
     font-size: 18px;
     vertical-align: middle;
 }
