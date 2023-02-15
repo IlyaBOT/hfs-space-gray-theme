@@ -126,6 +126,7 @@ a {
 @media (min-width: 1200px) {
     #player {
         position: fixed;
+        top: auto;
         bottom: 2px;
         left: 2px;
         padding: .5%;
