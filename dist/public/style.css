@@ -148,4 +148,7 @@ a {
     text-shadow: 1px 1px 4px rgb(0 0 0 / 70%);
     font-size: 20px;
     font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap; /* Запрещаем переносы слов */
+    animation: marquee 15s linear infinite;
 }
