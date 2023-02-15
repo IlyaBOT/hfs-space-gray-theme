@@ -146,18 +146,6 @@ a {
     border-radius: .3em;
     vertical-align: middle;
     text-shadow: 1px 1px 4px rgb(0 0 0 / 70%);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
-    overflow: hidden;
-    white-space: nowrap; /* Запрещаем переносы слов */
-    animation: 5s anim1 infinite linear;
 }
-
-@keyframes anim1 {
-    from {
-       background-position: 0 0;
-    }
-    to {
-       background-position: -250px 0;
-    }
- }
