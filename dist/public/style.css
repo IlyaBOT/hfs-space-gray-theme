@@ -24,6 +24,7 @@
     --text: #555;
     --ghost-contrast: #8882;
     --faint-contrast: #0f1113;
+    --faint-contrast-trans: #0f11137d;
     --mild-contrast: #8886;
     --good-contrast: #000a;
     --button-bg: #68a;
@@ -97,7 +98,6 @@ button {
     background-color: var(--button-bg);
     color: var(--button-text);
     padding: .5em 1em;
-    border: transparent;
     text-decoration: none;
     border-radius: .3em;
     vertical-align: middle;
@@ -120,4 +120,28 @@ a {
     color: var(--button-text);
     font-size: 18px;
     vertical-align: middle;
+}
+
+#player {
+    position: fixed;
+    left: 2px;
+    bottom: 2px;
+    padding: .5%;
+    width: calc((100vw - 800px) / 1.2);
+    box-sizing: border-box;
+    background: #0f11117d;
+    border-radius: 8px;
+    border: 1px solid var(--faint-contrast);
+    z-index: 1;
+}
+
+#player-title {
+    color: var(--button-text);
+    padding: .5em 1em;
+    text-decoration: none;
+    border-radius: .3em;
+    vertical-align: middle;
+    text-shadow: 1px 1px 4px rgb(0 0 0 / 70%);
+    font-size: 20px;
+    font-weight: bold;
 }
