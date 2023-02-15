@@ -106,6 +106,11 @@ button:hover {
     word-break: break-word;
 }
 
+a {
+    text-decoration: none;
+    vertical-align: middle;
+}
+
 /*.breadcrumb:hover {
     background-color: var(--button-text);
 	color: var(--button-bg);
