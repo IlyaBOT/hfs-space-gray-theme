@@ -3,7 +3,7 @@
     line-height: 1.8em;
     border-radius: .7em;
     background-color: var(--button-bg);
-    border: 1px solid var(--faint-contrast); 
+    border: 1px solid var(--faint-contrast);
     margin: 2px 4px auto;
     display: inline-block;
     min-width: 60px;
@@ -15,7 +15,7 @@
 
 .breadcrumb:hover {
     background-color: var(--button-bg-hover);
-	text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.4);
+    text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.4);
 }
 
 :root {
@@ -31,6 +31,7 @@
     --button-text: #fff;
     --focus-color: #468;
 }
+
 :root .theme-dark {
     --bg: #25282A;
     --text: #c8c8c8;
@@ -52,7 +53,7 @@ body {
 header {
     background-image: -webkit-linear-gradient(#484e55, #3a3f44 60%, #313539);
     background-image: -o-linear-gradient(#484e55, #3a3f44 60%, #313539);
-    background-image: -webkit-gradient( linear, left top, left bottom, from(#484e55), color-stop(60%, #3a3f44), to(#313539) );
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#484e55), color-stop(60%, #3a3f44), to(#313539));
     background-image: linear-gradient(#484e55, #3a3f44 60%, #313539);
     background-repeat: no-repeat;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff484e55', endColorstr='#ff313539', GradientType=0);
@@ -110,9 +111,9 @@ button {
 }
 
 button:hover {
-	background-color: var(--button-text);
-	color: var(--button-bg-hover);
-	text-shadow: 1px 1px 4px rgba(255, 255, 255, 70%);
+    background-color: var(--button-text);
+    color: var(--button-bg-hover);
+    text-shadow: 1px 1px 4px rgba(255, 255, 255, 70%);
 }
 
 a {
@@ -122,17 +123,19 @@ a {
     vertical-align: middle;
 }
 
-#player {
-    position: fixed;
-    left: 2px;
-    bottom: 2px;
-    padding: .5%;
-    width: calc((100vw - 800px) / 1.2);
-    box-sizing: border-box;
-    background: #0f11117d;
-    border-radius: 8px;
-    border: 1px solid var(--faint-contrast);
-    z-index: 1;
+@media (min-width: 1200px) {
+    #player {
+        position: fixed;
+        bottom: 2px;
+        left: 2px;
+        padding: .5%;
+        min-width: calc((100vw - 800px) / 1.2);
+        box-sizing: border-box;
+        background: #0f11117d;
+        border-radius: 8px;
+        border: 1px solid var(--faint-contrast);
+        z-index: 1;
+        }
 }
 
 #player-title {
