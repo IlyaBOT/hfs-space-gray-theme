@@ -76,6 +76,10 @@ header {
     flex-direction: column;*/
 }
 
+#root>div {
+    max-width: 100%;
+}
+
 ul.dir {
     flex: 1;
     padding: 15px;
