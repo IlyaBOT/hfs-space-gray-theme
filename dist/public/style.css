@@ -72,8 +72,8 @@ header {
     max-width: 100%;
     margin: auto;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    /*display: flex;
+    flex-direction: column;*/
 }
 
 ul.dir {
