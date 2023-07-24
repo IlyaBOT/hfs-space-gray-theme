@@ -1,4 +1,4 @@
-exports.version = 1.7
+exports.version = 1.8
 exports.description = "Space Gray theme by IlyaBOT"
 exports.apiRequired = 1
 exports.repo = "IlyaBOT/hfs-space-gray-theme"
