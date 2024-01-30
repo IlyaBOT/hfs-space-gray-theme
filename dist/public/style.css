@@ -76,6 +76,10 @@ header {
     flex-direction: column;*/
 }
 
+.list-wrapper {
+    max-width: 100%;
+}
+
 #root>div {
     max-width: 100%;
 }
